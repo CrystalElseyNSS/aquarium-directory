@@ -1,0 +1,54 @@
+.bordered {
+    border: 2px solid gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.fish {
+    padding: 2em;
+    text-align: center;
+}
+
+.fish__image {
+    height: 8em;
+}
+
+.fish__list {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+nav {
+    padding: 2rem;
+    text-align: center;
+}
+
+.nav__link {
+    padding: 2em;
+}
+
+.tank {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+aside {
+    padding: 1em;
+}

@@ -1,0 +1,29 @@
+/* tip componenents */
+
+.tips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tips__lodging {}
+
+.tips__dining {}
+
+.tips__culture {}
+
+.tips__transport {}
+
+
+
+/* location componenents */
+
+.location__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.location {}
+
+.location__general {}
+
+.location__dive {}
