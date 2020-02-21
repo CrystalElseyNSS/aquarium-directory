@@ -1,0 +1,15 @@
+.fish {
+    padding: 2em;
+    text-align: center;
+}
+
+.fish__image {
+    height: 8em;
+}
+
+.fish__list {
+    display: flex;
+    flex-basis: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

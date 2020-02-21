@@ -1,17 +1,12 @@
+@import 'nav.css';
+
+
 /* tip componenents */
 
 .tips {
     display: flex;
     flex-wrap: wrap;
 }
-
-.tips__lodging {}
-
-.tips__dining {}
-
-.tips__culture {}
-
-.tips__transport {}
 
 
 
@@ -21,9 +16,3 @@
     display: flex;
     flex-wrap: wrap;
 }
-
-.location {}
-
-.location__general {}
-
-.location__dive {}

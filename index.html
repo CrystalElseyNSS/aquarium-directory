@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/main.css">
     <title>Martin's Aquarium</title>
 </head>
 
@@ -21,31 +21,53 @@
         
         <section class="fish__list bordered">
             <h2>Fish Roster</h2>
+
             <div class="fish">
                 <img class="fish__image" src="https://cdn.shopify.com/s/files/1/1692/8285/products/1_52b09400-6bd9-4d1a-bf27-a4bdaa9c1919_large.jpg?v=1571439470">
-                <p class="fish__name">Name: Harold</p>
-                <p class="fish__species">Species: Beta</p>
-                <p class="fish__length">Length: 6 inches</p>
-                <p class="fish__diet">Diet: Human tears</p>
-                <p class="fish__location">Harvested from: Cabo</p>
+                <div class="fish__name">Harold</div>
+                <div>
+                    <button id="button__harold">Details</button>
+                </div>
+                <dialog class="fish__dialogue" id="details__harold">
+                    <div>Species: Beta Fish</div>
+                    <div>Location: Cabo</div>
+                    <div>Length: 6 inches</div>
+                    <div>Food: Human tears</div>
+
+                    <button class="button__close" id="close__harold">Close Details</button>
+                </dialog>
             </div>
 
             <div class="fish">
                 <img class="fish__image" src="https://thumbs-prod.si-cdn.com/Sy04saLVLaQEBEUXPh6gRmtyyUk=/fit-in/1600x0/https://public-media.si-cdn.com/filer/bf/4e/bf4ec3eb-669f-4a1d-87ad-dd83f81c384d/4694899147_fcd4b69350_o.jpg">
-                <p class="fish__name">Name: Maude</p>
-                <p class="fish__species">Species: Goldfish</p>
-                <p class="fish__length">Length: 4 inches</p>
-                <p class="fish__diet">Diet: Crumbs</p>
-                <p class="fish__location">Harvested from: California</p>
+                <div class="fish__name">Maude</div>
+                <div>
+                    <button id="button__maude">Details</button>
+                </div>
+                <dialog class="fish__dialogue" id="details__maude">
+                    <div>Species: Goldfish</div>
+                    <div>Location: California</div>
+                    <div>Length: 2 inches</div>
+                    <div>Food: Avocados</div>
+
+                    <button class="button__close" id="close__maude">Close Details</button>
+                </dialog>
             </div>
 
             <div class="fish">
                 <img class="fish__image" src="https://www.worldwidefishandpets.com/wp-content/uploads/2018/11/boesemansRainbow2-1-1-1.jpg">
-                <p class="fish__name">Name: Betty</p>
-                <p class="fish__species">Species: Rainbow Fish</p>
-                <p class="fish__length">Length: 48 inches</p>
-                <p class="fish__diet">Diet: Stardust</p>
-                <p class="fish__location">Harvested from: Space</p>
+                <div class="fish__name">Betty</div>
+                <div>
+                    <button id="button__betty">Details</button>
+                </div>
+                <dialog class="fish__dialogue" id="details__betty">
+                    <div>Species: Rainbow Fish</div>
+                    <div>Location: Croatian Coast</div>
+                    <div>Length: 8 inches</div>
+                    <div>Food: Stardush</div>
+
+                    <button class="button__close" id="close__betty">Close Details</button>
+                </dialog>
             </div>
 
         </section>
@@ -65,7 +87,7 @@
         </section>
 
     </article>
-    <script src="main.js"></script>
+    <script type="module" src="../scripts/main.js"></script>
 </body>
 
 </html>

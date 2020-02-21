@@ -1,3 +1,6 @@
+@import 'fish.css';
+@import 'nav.css';
+
 .bordered {
     border: 2px solid gray;
 }
@@ -10,21 +13,6 @@
     margin: 2rem;
 }
 
-.fish {
-    padding: 2em;
-    text-align: center;
-}
-
-.fish__image {
-    height: 8em;
-}
-
-.fish__list {
-    display: flex;
-    flex-basis: 60%;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
 
 h1 {
     text-align: center;
@@ -33,15 +21,6 @@ h1 {
 h2 {
     text-align: center;
     text-decoration: underline;
-}
-
-nav {
-    padding: 2rem;
-    text-align: center;
-}
-
-.nav__link {
-    padding: 2em;
 }
 
 .tank {
