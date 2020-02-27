@@ -1,7 +1,10 @@
 import initializeDetailButtonEvents from './dialogs.js'; 
 import { useFish } from './FishDataProvider.js';
+import FishList from './FishList.js';
 
-initializeDetailButtonEvents();
+// initializeDetailButtonEvents();
+
+FishList()
 
 const arrayOfTheFishObjects = useFish();
 
