@@ -1,0 +1,26 @@
+@import 'nav.css';
+
+.bordered {
+    border: 2px solid gray;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.tips {
+    height: auto;
+    width: 90%;
+}
