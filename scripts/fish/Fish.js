@@ -1,4 +1,3 @@
-// Converts an object into html:
 const Fish = (fishObject) => {
     return `
         <div class="fish">

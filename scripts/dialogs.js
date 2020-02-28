@@ -7,7 +7,9 @@ const initializeDetailButtonEvents = () => {
             }
         )
     }
- 
+
+    // FISH DIALOG BUTTONS:
+
     document.querySelector("#button--harold").addEventListener("click", theClickEvent => {
             const theDialog = document.querySelector("#details--harold")
             theDialog.showModal()
@@ -25,10 +27,7 @@ const initializeDetailButtonEvents = () => {
         theDialog.showModal()
         }
     )
-
 }
-
-
 
 
 

@@ -1,19 +1,19 @@
-import { useLocation } from './locationDataProvider.js.js.js'; 
-import location from './location.js.js.js';
+import { useLocation } from './LocationDataProvider.js'; 
+import Location from './Location.js';
 
 const contentTarget = document.querySelector(".locationList")
 
 
-const locationList = () => {
+const LocationList = () => {
 
     // Get the data from the provider
-    const locationObjectsArray = uselocation()
+    const locationObjectsArray = useLocation()
 
     // Iterate the array
     for (const locationObject of locationObjectsArray) {
 
         // Convert each object to html representation (in a function in location), and invoke it:
-        const locationHTMLRepresentation = location(locationObject)
+        const locationHTMLRepresentation = Location(locationObject)
 
         // Put html in DOM
         contentTarget.innerHTML += locationHTMLRepresentation
@@ -22,4 +22,4 @@ const locationList = () => {
   
 }
 
-export default locationList
+export default LocationList

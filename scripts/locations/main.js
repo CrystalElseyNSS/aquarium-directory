@@ -1,13 +1,12 @@
-import initializeDetailButtonEvents from '../dialogs'; 
-import { useLocation } from './locations/LocationDataProvider.js.js.js';
-import locationList from './locations/LocationList.js.js.js';
+import { useLocation } from './LocationDataProvider.js';
+import LocationList from './LocationList.js';
 
-// initializeDetailButtonEvents();
-
-locationList()
+LocationList();
 
 const arrayOfTheLocationObjects = useLocation();
 
 for (const currentLocationObject of arrayOfTheLocationObjects) {
     console.log(currentLocationObject);
 } 
+
+// initializeDetailButtonEvents();
