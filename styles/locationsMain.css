@@ -10,15 +10,13 @@
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    font-family: 'Montserrat', 'Verdana', 'Tahoma', sans-serif;
     justify-content: space-between;
     margin: 2rem;
 }
 
-h1 {
-    text-align: center;
-}
+
 
 h2 {
     text-align: center;
 }
-
