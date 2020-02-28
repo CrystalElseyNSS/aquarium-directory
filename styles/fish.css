@@ -8,6 +8,7 @@
 }
 
 .fishList {
+    border: 2px solid gray;
     display: flex;
     flex-basis: 60%;
     flex-direction: column;

@@ -1,0 +1,20 @@
+.location {
+    border: 2px solid gray;
+    margin-bottom: 25px;
+}
+
+.locationList {
+    height: auto;
+    margin: auto;
+    width: 90%;
+}
+
+.location__image {
+    height: auto;
+    width: 100%;
+}
+
+.location__name {
+    font-size: 36px;
+}
+

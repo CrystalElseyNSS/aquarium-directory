@@ -1,4 +1,7 @@
 .travelTips {
+    border: 2px solid gray;
     height: auto;
+    margin: auto;
+    margin-bottom: 25px;
     width: 90%;
 }

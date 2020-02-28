@@ -14,10 +14,10 @@ const FishList = () => {
     for (const fishObject of fishObjectsArray) {
 
         // Convert each object to html representation (in a function in Fish), and invoke it:
-        const fishHTMLRepresentation = Fish(fishObject)
+        const fishHTMLRepresentation = Fish(fishObject);
 
         // Put html in DOM
-        contentTarget.innerHTML += fishHTMLRepresentation
+        contentTarget.innerHTML += fishHTMLRepresentation;
 
     }
   
