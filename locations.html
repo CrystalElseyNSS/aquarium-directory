@@ -1,39 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/locations.css">
-    <title>Harvest Locations</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/locationsMain.css">
+        <title>Harvest Locations</title>
+    </head>
 
-<body>
-    <header>
-        <nav>
-            <a class="nav__link" href="./index.html">Martin's Aquarium</a>
-            <a class="nav__link" href="#">Harvesting Locations</a>
-        </nav>
-        <h1>Martin's Dive Spots</h1>
-    </header>
+    <body>
+        <header>
+            <nav>
+                <a class="navLink" href="./index.html">Martin's Aquarium</a>
+                <a class="navLink" href="#">Harvesting Locations</a>
+            </nav>
+            <h1>Martin's Dive Spots</h1>
+        </header>
 
-    <article class="container">
+        <article class="container">
 
-        <section class="tips bordered">
-            <h2>Travel Tips</h2>
-            <ul class="tips__list">
-                <li>Tip #1</li>
-                <li>Tip #2</li>
-                <li>Tip #3</li>
-                <li>Tip #4</li>
-            </ul>
+            <section class="travelTips bordered">
+                <h2>Travel Tips</h2>
+                <ul class="travelTips__list">
+                    <li class="travelTips--listItem">Tip #1</li>
+                    <li class="travelTips--listItem">Tip #2</li>
+                    <li class="travelTips--listItem">Tip #3</li>
+                    <li class="travelTips--listItem">Tip #4</li>
+                </ul>
+            </section>
 
-        </section>
+            <!-- Automated HTML to go in "locationList" -->
+            <section class="locationList bordered"></section>
 
-        <!-- Automated HTML to go in "locationList" -->
-        <section class="locationList bordered"></section>
-
-    </article>
-    <script type="module" src="../scripts/main.js"></script>
-</body>
+        </article>
+        <script type="module" src="../scripts/main.js"></script>
+    </body>
 
 </html>
