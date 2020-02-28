@@ -6,9 +6,9 @@ const Fish = (fishObject) => {
                 <img class="fish__image" src="${fishObject.image}" alt="">
             </div>
             <div class="fish__name">${fishObject.name}</div>
-            <button id="button--${fishObject.name}">Details</button>
+            <button id="button--${fishObject.class}">Details</button>
 
-            <dialog class="dialog--fish" id="details--${fishObject.name}">
+            <dialog class="dialog--fish" id="details--${fishObject.class}">
                 <div>Species: ${fishObject.species}</div>
                 <div>Location: ${fishObject.location}</div>
                 <div>Length: ${fishObject.size}</div>
