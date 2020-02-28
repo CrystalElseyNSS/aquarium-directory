@@ -1,4 +1,5 @@
 @import 'nav.css';
+@import 'travelTips.css';
 
 .bordered {
     border: 2px solid gray;
@@ -20,7 +21,3 @@ h2 {
     text-align: center;
 }
 
-.tips {
-    height: auto;
-    width: 90%;
-}

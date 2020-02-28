@@ -1,5 +1,6 @@
-@import 'fish.css';
 @import 'nav.css';
+@import 'fish.css';
+@import 'tankCare.css';
 
 .bordered {
     border: 2px solid gray;
@@ -21,13 +22,4 @@ h1 {
 h2 {
     text-align: center;
     text-decoration: underline;
-}
-
-.tank {
-    flex-basis: 30%;
-    text-align: center;
-}
-
-aside {
-    padding: 1em;
 }

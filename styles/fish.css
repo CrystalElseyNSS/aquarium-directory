@@ -7,7 +7,7 @@
     height: 8em;
 }
 
-.fish__list {
+.fishList {
     display: flex;
     flex-basis: 60%;
     flex-direction: column;
