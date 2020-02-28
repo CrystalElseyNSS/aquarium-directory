@@ -1,12 +1,11 @@
 .location {
-    border: 2px solid gray;
     margin-bottom: 25px;
 }
 
 .locationList {
     height: auto;
     margin: auto;
-    width: 90%;
+    width: 93%;
 }
 
 .location__image {
@@ -16,5 +15,12 @@
 
 .location__name {
     font-size: 36px;
+}
+
+.locations__h1 {
+    color: #0d264d;
+    font-family: 'Parisienne', 'Tangerine', 'Pinyon Script';
+    font-size: 72px;
+    text-align: center;
 }
 

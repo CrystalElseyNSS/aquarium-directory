@@ -1,8 +1,13 @@
 nav {
+    background-color: #0d264d;
+    font-family: 'Montserrat', 'Verdana', 'Tahoma', sans-serif;
     padding: 2rem;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .navLink {
+    color: white;
     padding: 2em;
+    text-emphasis: bold;
 }

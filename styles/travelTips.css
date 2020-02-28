@@ -1,7 +1,21 @@
 .travelTips {
-    border: 2px solid gray;
-    height: auto;
-    margin: auto;
-    margin-bottom: 25px;
+    background-image: url("https://www.biztrip.co.uk/wp-content/uploads/2017/05/Business-Travel-Header-Image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 50px auto;
+    padding-bottom: 25px;
+    padding-left: 25px;
     width: 90%;
+}
+
+.travelTips h2 {
+    color: whitesmoke;
+    text-align: left;
+    font-size: 36px;
+}
+
+.travelTips__list {
+    color: whitesmoke;
+    text-align: left;
 }
