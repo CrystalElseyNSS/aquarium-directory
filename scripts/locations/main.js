@@ -1,3 +1,4 @@
+import initializeLocationDetailButtonEvents from './dialogs.js';
 import { useLocation } from './LocationDataProvider.js';
 import LocationList from './LocationList.js';
 
@@ -9,4 +10,4 @@ for (const currentLocationObject of arrayOfTheLocationObjects) {
     console.log(currentLocationObject);
 } 
 
-// initializeDetailButtonEvents();
+initializeLocationDetailButtonEvents();

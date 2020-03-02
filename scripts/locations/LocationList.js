@@ -1,10 +1,10 @@
 import { useLocation } from './LocationDataProvider.js'; 
 import Location from './Location.js';
 
-const contentTarget = document.querySelector(".locationList")
 
 
 const LocationList = () => {
+    const contentTarget = document.querySelector(".locationList")
 
     // Get the data from the provider
     const locationObjectsArray = useLocation()

@@ -1,10 +1,17 @@
+.button--fishDetails {
+    background-color: #0d264d;
+    color: whitesmoke;
+    padding: 10px;
+}
+
 .fish {
     padding: 2em;
     text-align: center;
 }
 
 .fish__image {
-    height: 8em;
+    height: 15em;
+    width: auto;
 }
 
 .fishList {

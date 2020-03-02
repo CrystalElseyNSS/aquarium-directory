@@ -1,3 +1,9 @@
+.button--locationDetails {
+    background-color: #0d264d;
+    color: whitesmoke;
+    padding: 10px;
+}
+
 .location {
     margin-bottom: 25px;
 }
