@@ -12,7 +12,7 @@ const FishList = () => {
 
     // Iterate the array
     for (const fishObject of fishObjectsArray) {
-
+        
         // Convert each object to html representation (in a function in Fish), and invoke it:
         const fishHTMLRepresentation = Fish(fishObject);
 
